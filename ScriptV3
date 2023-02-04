@@ -3,7 +3,7 @@ function b.OnInvoke(response) if response == "Copy Link" then if setclipboard th
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Join roblox group!", Text = "This is the roblox group! :D", Duration = 5, Callback = b, Button1 = "Copy Link"})
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SprinHub", "DarkTheme")
+local Window = Library.CreateLib("EntityHub", "DarkTheme")
 
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Main")
